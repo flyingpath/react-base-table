@@ -1,6 +1,6 @@
 {
-  "name": "react-base-table",
-  "version": "1.13.4",
+  "name": "react-base-table-f",
+  "version": "1.0.0",
   "description": "a react table component to display large data set with high performance and flexibility",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -11,11 +11,11 @@
     "types/",
     "styles.css"
   ],
-  "author": "Neo Nie <nihgwu@live.com>",
+  "author": "flyingpath",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Autodesk/react-base-table.git"
+    "url": "https://github.com/flyingpath/react-base-table.git"
   },
   "scripts": {
     "start": "cd website && npm start",
@@ -53,8 +53,8 @@
     "react-window": "^1.8.2"
   },
   "peerDependencies": {
-    "react": "^16.0.0 || ^17.0.0",
-    "react-dom": "^16.0.0 || ^17.0.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -82,7 +82,7 @@
     "jest": "^23.5.0",
     "lerna": "^3.2.1",
     "lint-staged": "^7.2.2",
-    "node-sass": "^4.9.3",
+    "node-sass": "^9.0.0",
     "prettier": "^1.14.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
