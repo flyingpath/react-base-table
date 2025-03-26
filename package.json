@@ -29,8 +29,8 @@
     "format": "prettier --write 'src/**/*.{js,scss}'",
     "prebuild": "npm run clean",
     "precommit": "lint-staged",
-    "prepush": "npm run test",
-    "prepublish": "ls",
+    "prepush": "ls",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "lint-staged": {
